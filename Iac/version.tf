@@ -7,6 +7,8 @@ terraform {
   }
 }
 
+# Configurar el proveedor de AWS
 provider "aws" {
-  # Configuration options
+  region  = var.region
+  profile = var.profile
 }
