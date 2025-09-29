@@ -4,6 +4,15 @@ Proyecto de la asignatura Infraestructura como código
 Actualmente solo se implementa un **bucket S3** con etiquetas para identificarlo por entorno.
 
 ---
+## 📝Descripción del Problema
+En universidades con matrícula flexible, muchos estudiantes irregulares (que arrastran/recursan cursos, convalidan, llevan créditos de distintos ciclos) construyen su horario con herramientas dispersas: malla curricular, NRC, hojas de cálculo y foro. Este proceso manual obliga a probar combinaciones a ciegas para evitar choques entre teoría–práctica–laboratorio, respetar prerrequisitos y acomodar restricciones personales.
+
+---
+## 📊 Diagrama
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1wMfFMhP6O5Qv2cD7fvSSEP0Yk01O3icz" alt="Diagrama del sistema" width="800"/>
+</p>
+
 
 ## 📂 Contenido del Proyecto
 ```text
