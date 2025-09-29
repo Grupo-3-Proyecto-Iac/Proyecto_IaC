@@ -6,6 +6,7 @@ Actualmente solo se implementa un **bucket S3** con etiquetas para identificarlo
 ---
 
 ## 📂 Contenido del Proyecto
+```text
 Proyecto_IaC/
 ├── README.md
 ├── .gitignore
@@ -14,6 +15,7 @@ Proyecto_IaC/
     ├── variables.tf
     ├── version.tf
     ├── terraform.tfvars
+```
     
 - **main.tf**  
   Contiene la definición del recurso `aws_s3_bucket` que crea un bucket S3 en AWS.
