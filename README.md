@@ -10,7 +10,7 @@ En universidades con matrícula flexible, muchos estudiantes irregulares (que ar
 ---
 ## 📊 Diagrama
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1wMfFMhP6O5Qv2cD7fvSSEP0Yk01O3icz" alt="Diagrama del sistema" width="800"/>
+  <img src="https://drive.google.com/file/d/1KeM7M8gX2uHxW3LgI9z4PE8VUlwxx1Hc/view?usp=sharing" alt="Diagrama del sistema" width="800"/>
 </p>
 
 
