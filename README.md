@@ -50,3 +50,4 @@ Proyecto_IaC/
 2. Accede a la carpeta `./Iac` e inicializa Terraform usando `terraform init`.
 3. Ejecutando `terraform plan` se podrá apreciar **los cambios que se aplicarán en la infraestructura antes de crearlos**.
 
+mi primer commit
