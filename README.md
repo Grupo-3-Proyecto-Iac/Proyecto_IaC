@@ -33,7 +33,7 @@ El proyecto ahora implementa:
 ---
 
 ## 📂 Contenido del Proyecto
-text
+```text
 Proyecto_IaC/
 ├── README.md
 ├── .gitignore
@@ -47,9 +47,13 @@ Proyecto_IaC/
         │   └── index.js
         ├── obtenerCurso/
         │   └── index.js
+        ├── eliminarHorario/
+        │   └── index.js
+        ├── generarHorario/
+        │   └── index.js
         ├── eliminarCurso/
         │   └── index.js
-
+```
 ---
 
 ## 📘 Descripción de Archivos
@@ -75,53 +79,61 @@ Proyecto_IaC/
 ## 🚀 Uso
 
 1.  *Clonar el repositorio:*
-    bash
-    git clone [https://github.com/Grupo-3-Proyecto-Iac/Proyecto_IaC.git](https://github.com/Grupo-3-Proyecto-Iac/Proyecto_IaC.git)
+    ```
+    git clone https://github.com/Grupo-3-Proyecto-Iac/Proyecto_IaC.git
     cd Proyecto_IaC/Iac
-    
+    ```
 
 2.  *Inicializar Terraform:*
-    bash
+    ```
     terraform init
-    
+    ```
 
 3.  *Previsualizar los recursos que se crearán:*
-    bash
+    ```
     terraform plan
-    
+    ```
 
 4.  *Aplicar los cambios (desplegar la infraestructura):*
-    bash
+    ```
     terraform apply -auto-approve
-    
+    ```
 
 5.  *Destruir los recursos (evitar costos innecesarios):*
-    bash
+    ```
     terraform destroy -auto-approve
-    
+    ```
 
 ---
+## 📊 Evidencia
+<a align="center">
+  <img src="https://drive.google.com/uc?export=view&id=19zB8jGMKKV-f2XvI63oGhP9WEHSfwy2T" alt="Evidencia primera imagen">
+</a>
+
+<a align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1t0DbKUPdng3XGM44db7bEiX1uRtzYQVy" alt="Evidencia segunda imagen">
+</a>
 
 ## 🧠 Notas Importantes
 
 - *Generar archivos .zip:* Los archivos .zip de las Lambdas deben generarse manualmente antes del despliegue. Desde la carpeta Iac/, ejecuta:
-  bash
+  ```
   cd lambdas/crearCurso && zip -r ../crearCurso.zip . && cd ../..
   cd lambdas/obtenerCurso && zip -r ../obtenerCurso.zip . && cd ../..
   cd lambdas/eliminarCurso && zip -r ../eliminarCurso.zip . && cd ../..
-  
+  ```
 - Este proyecto fue creado con fines académicos. Se recomienda ejecutar terraform destroy al finalizar las pruebas para evitar costos.
 - Todos los recursos se crean bajo la región definida en terraform.tfvars (por defecto us-east-1).
 
 ---
 
 ## 👥 Autores
-Gonzales Soto Alex
-Sosa Macuyama Angelo
-Tisnado Guevara Anthony
-Vereau Tuesta Cristian
-Mendoza Avila, Jorge Luis
+- Gonzales Soto Alex
+- Sosa Macuyama Angelo
+- Tisnado Guevara Anthony
+- Vereau Tuesta Cristian
+- Mendoza Avila, Jorge Luis
 
-Proyecto desarrollado por el *Grupo 3*.
+### Proyecto desarrollado por el *Grupo 3*.
 - Asignatura: Infraestructura como Código (IaC) - Ingeniería de Sistemas e Inteligencia Artificial, UPAO.
 - Año académico: 2025
