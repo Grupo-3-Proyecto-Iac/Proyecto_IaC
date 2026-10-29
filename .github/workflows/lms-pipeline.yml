@@ -1,0 +1,27 @@
+name: Pipeline CI/CD LMS
+
+run-name: ${{ github.actor }} ejecutando pipeline LMS
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  pipeline-lms:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Inicio
+        run: echo "Iniciando pipeline CI/CD del LMS"
+
+      - name: Validar codigo
+        run: echo "Validando codigo de los microservicios LMS"
+
+      - name: Ejecutar pruebas
+        run: echo "Ejecutando pruebas del sistema LMS"
+
+      - name: Construir Docker
+        run: echo "Construyendo imagenes Docker"
+
+      - name: Amazon ECR
+        run: echo "Publicando imagenes en Amazon ECR"
